@@ -1,0 +1,34 @@
+Caso de Estudio 1
+Estudiante: Andrés Calderón Guardia
+
+
+Recursos:
+- Correos de los testers: Confidencialidad y privacidad dado que no se quiere que se pueda obtener el instalador del juego que viene incluido en los correos que se les enviaron.
+- Instalador del videojuego: Disponibilidad ya que se necesita que los testers de confianza puedan descargar el videojuego con el fin de realizar el desarrollo de la secuela.
+
+Adversarios:
+- Fans del juego: Pueden ser varios individuales que intenten acceder a la versión preliminar del videojuego con el motivo de difundirla para que todos tengan acceso a esta, posiblemente ganando fama en el proceso.
+- Otras empresas de videojuegos: Si descubren las nuevas funcionalidades podrían copiarlas para implementarlas en sus propios juegos e intentar sacarlos antes para así apropiarse de dichas ideas y ganar dinero en el proceso.
+
+
+Árbol de amenaza:
+tener acceso a una versión jugable del videojuego
+├── manipular a los involucrados
+│   └── contactar con la empresa desarrolladora de la secuela
+│       └── sobornarlos con dinero
+├── acceder a credenciales
+│   ├── obtener acceso a los correos de los testers
+│   │   ├── fuerza bruta
+│   │   └── keyloggers
+│   └── interceptar contenido de los correos
+│       └── man in the middle
+└── tener un insider
+    └── ser contratado en la empresa del videojuego original
+        └── obtener acceso a la versión preliminar y filtrarla
+
+
+Medidas de seguridad:
+- Fuerza bruta: Usar claves seguras que tomen un tiempo infactible en forzar.
+- Keyloggers: Revisar por programas sospechosos en ejecución.
+- Sobornarlos con dinero: Tener un buen ambiente en la empresa que evite estos casos.
+
